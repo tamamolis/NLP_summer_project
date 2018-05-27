@@ -10,5 +10,4 @@
 ### Найдено:
 - [исходная статья](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/cikm2013_DSSM_fullversion.pdf "исходная статья")
 - [код по первой ссылке в гугле](https://github.com/liaha/dssm "код по первой ссылке в гугле")
-- ["введение в информационный поиск", книжка, прочитать](https://www.ozon.ru/context/detail/id/5497130/ "озон")
-- книжка, которую дал Витя, прочитать
+- ["введение в информационный поиск", книжка, прочитать](https://www.ozon.ru/context/detail/id/5497130/ "озон"
