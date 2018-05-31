@@ -17,3 +17,4 @@
 - [датасет, использующийся в статьях про CNTK, задача ATIS](https://catalog.ldc.upenn.edu/LDC95S26)
 - [вот тут тоже немножко по датасетам есть, но что-то, похоже, не то, зато много](https://github.com/brmson/dataset-sts)
 - [датасет по кликам с kaggle.com](https://www.kaggle.com/c/avazu-ctr-prediction)
+- [код с ДАТАСЕТАМИ](https://github.com/xubaochuan/dssm)
