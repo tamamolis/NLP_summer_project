@@ -18,3 +18,22 @@
 - [вот тут тоже немножко по датасетам есть, но что-то, похоже, не то, зато много](https://github.com/brmson/dataset-sts)
 - [датасет по кликам с kaggle.com](https://www.kaggle.com/c/avazu-ctr-prediction)
 - [код с ДАТАСЕТАМИ](https://github.com/xubaochuan/dssm)
+
+### Проблемы на текущем этапе
+### dssm
+## how to use (эмбеддинги)
+- mkdir model
+- in dir model create file 'vocab.txt'
+- mkdir output
+- cd preprocess
+- python preprocess.py
+- cd src/run
+- python train.py
+- python test.py
+- DONE, всё работает, есть результат
+## how to w2v
+- в файле preprocess.py есть generate_vocab(), который создаёт файл vec.txt
+- в файле dssm.py есть флаг fine_tune, заменить на True, тогда будет v2w вместо эмбеддингов
+- в dssm.py есть метод load_w2v(), который считывает из vec.txt
+## w2v troubles
+- проблемы с созданием vec.txt, потому что оттуда только считывается. есть ощущение, что перепутаны файлы vec.txt и w2v_corpus.txt, потому что w2v_corpus.txt создаётся и никак не используется
