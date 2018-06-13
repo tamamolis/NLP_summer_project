@@ -30,14 +30,14 @@
 - cd src/run
 - python train.py
 - python test.py
-#### DONE, всё работает, есть результат
+#### <b style='color:blue'>DONE</b>, всё работает, есть результат
 ### how to use w2v
 - в файле preprocess.py есть generate_vocab(), который ОТКРЫВАЕТ файл vec.txt, НО НЕ СОЗДАЁТ ЕГО.
 - в файле dssm.py есть флаг fine_tune, заменить на True, тогда будет v2w вместо эмбеддингов
 - в dssm.py есть метод load_w2v(), который считывает из vec.txt
 ### w2v troubles
 - проблемы с созданием vec.txt. есть ощущение, что перепутаны файлы vec.txt и w2v_corpus.txt, потому что w2v_corpus.txt создаётся и никак не используется. <b style='color:blue'>DONE</b>
-- lhs shape= [1952,200] rhs shape= [2278,200] <p style='color:red'>¯\_(ツ)_/¯.</p>
+- lhs shape= [1952,200] rhs shape= [2278,200]. <b style='color:red'>¯\_(ツ)_/¯</b>
 
 #### w2v troubles, разбор чужого кода
 - файл vec.txt, который нигде не создаётся, но оттуда считывается в разных местах. какова была задумка автора? надо воссоздать этот файл.
