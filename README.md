@@ -31,7 +31,7 @@
 - python train.py
 - python test.py
 #### DONE, всё работает, есть результат
-### how to w2v
+### how to use w2v
 - в файле preprocess.py есть generate_vocab(), который ОТКРЫВАЕТ файл vec.txt, НО НЕ СОЗДАЁТ ЕГО.
 - в файле dssm.py есть флаг fine_tune, заменить на True, тогда будет v2w вместо эмбеддингов
 - в dssm.py есть метод load_w2v(), который считывает из vec.txt
